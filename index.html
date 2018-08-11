@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>舒克生中文网</title>
+
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+
+<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+
+<!--必要样式-->
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<!--[if IE]>
+	<script src="js/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="container demo-2">
+	<div class="content">
+		<div id="large-header" class="large-header">
+			<canvas id="demo-canvas"></canvas>
+			<div class="main">
+				<div class="main-logo">
+					<h1>Suckson</h1>
+					<img class="img-logo-1 animated rollIn" src="img/形状 3.png" alt="">
+				</div>
+				<h2>向那些疯狂的家伙们致敬——</h2>
+				<h3>ThinkDifferent</h3>
+				<h4><a href="https://www.suckson.club"><button class="animated">Go 柴先生博客</button ></a>
+					<a href="https://www.suckson.club"> <button class="animated">Go  陈先生博客</button></a>
+			    	<a href="https://www.suckson.club">	<button class="animated  hiddenbtn">GO &nbsp;   GiTub</button></a>
+					<a href="https://www.suckson.club"><button class="animated  hiddenbtn1">Go &nbsp;   OurMusic</button></a>
+				</h4>
+			</div>
+		</div>
+	</div>
+</div><!-- /container -->
+<script src="js/rAF.js"></script>
+<script src="js/demo-2.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-canvas-sparkles.js"></script>
+<script>
+$(".img-logo-1").sparkle({
+color: "rainbow",
+count: 50,
+overlap: 0,
+speed: 1.5,
+minSize: 5,
+maxSize: 10,
+direction: "both"
+});	
+$(".img-logo h1").sparkle({
+color: "rainbow",
+count: 50,
+overlap: 0,
+speed: 1.5,
+minSize: 5,
+maxSize: 10,
+direction: "both"
+});	
+$(function () {
+	$(".main h4 button").mouseenter(function(event) {
+		$(this).addClass('bounce')
+	});
+    $(".main h4 button").mouseleave(function(event) {
+		$(this).removeClass('bounce')
+	});	
+})				
+</script>
+</body>
+</html>
