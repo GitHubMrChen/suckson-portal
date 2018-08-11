@@ -13,13 +13,8 @@
 	background-position: center center;
 	z-index: 1;
 }
-
-.demo-1 .large-header {
-	background-image: url('../img/demo-1-bg.jpg');
-}
-
 .demo-2 .large-header {
-	background-image: url('../img/demo-2-bg.jpg');
+	background-image: url('../img/bg2.jpg');
 	background-position: center bottom;
 }
 
@@ -171,7 +166,6 @@
  	display: none;
  }
   .demo-2 .large-header {
-    background-image: url(../img/demo-2-bg.jpg);
     background-position: 3% 50%;
 }
 }
@@ -196,13 +190,11 @@
  	display:none;
  }
  .demo-2 .large-header {
-    background-image: url(../img/demo-2-bg.jpg);
     background-position: 3% 50%;
 }
 }
 @media only screen and (max-width : 420px) {
  .demo-2 .large-header {
-    background-image: url(../img/demo-2-bg.jpg);
     background-position: -73% 50%;
 }
 .main{

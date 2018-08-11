@@ -65,9 +65,7 @@
         (function() {
             _this.pos = {};
             init();
-            console.log(_this);
         })();
-
         function init() {
             _this.pos.x = Math.random()*width;
             _this.pos.y = height+Math.random()*100;

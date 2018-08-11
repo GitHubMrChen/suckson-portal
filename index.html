@@ -7,7 +7,7 @@
 <title>舒克生中文网</title>
 
 <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-
+<link rel="icon" href="img/icon.ico" type="image/x-icon"/>
 <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
 <link rel="stylesheet" type="text/css" href="css/demo.css" />
 
@@ -25,7 +25,7 @@
 			<div class="main">
 				<div class="main-logo">
 					<h1>Suckson</h1>
-					<img class="img-logo-1 animated rollIn" src="img/形状 3.png" alt="">
+					<img class="img-logo-1 animated rollIn" src="img/3.png" alt="">
 				</div>
 				<h2>向那些疯狂的家伙们致敬——</h2>
 				<h3>ThinkDifferent</h3>
@@ -68,7 +68,48 @@ $(function () {
     $(".main h4 button").mouseleave(function(event) {
 		$(this).removeClass('bounce')
 	});	
-})				
+})
+
+$(function(){
+	var random = Math.floor(Math.random()*(10-1+1)+1);
+	switch (random) {
+		case 1:
+			$(".large-header").css("background-image","url('./img/bg1.jpg')");
+			break;
+        case 2:
+			$(".large-header").css("background-image","url('./img/bg2.jpg')")
+			break;		
+        case 3:
+			$(".large-header").css("background-image","url('./img/bg3.jpg')")
+			break;	
+		case 4:
+			$(".large-header").css("background-image","url('./img/bg5.jpg')")
+			break;			
+		case 5:
+			$(".large-header").css("background-image","url('./img/bg6.jpg')")
+			break;			
+		case 6:
+			$(".large-header").css("background-image","url('./img/bg7.jpg')")
+			break;			
+		case 7:
+			$(".large-header").css("background-image","url('./img/bg8.jpg')")
+			break;			
+		case 8:
+			$(".large-header").css("background-image","url('./img/bg8.jpg')")
+			break;			
+		case 9:
+			$(".large-header").css("background-image","url('./img/bg9.jpg')")
+			break;
+        case 10:
+			$(".large-header").css("background-image","url('./img/bg4.jpg')")
+			break;									
+	};
+	function changebg(){
+		  var random = Math.floor(Math.random()*(9-1+1)+1);
+	   	  $(".large-header").css("background-image","url(./img/bg"+random+".jpg)");
+	}
+	setInterval(changebg,5000);
+})
 </script>
 </body>
 </html>
