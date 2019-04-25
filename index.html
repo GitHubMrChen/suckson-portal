@@ -5,14 +5,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
 <title>舒克生</title>
-
-<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-<link rel="icon" href="img/icon.ico" type="image/x-icon"/>
-<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
-<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="https://sucksonwebsit-1256470100.cos.ap-shanghai.myqcloud.com/dist/css/normalize.min.css" />
+<link rel="icon" href="https://sucksonwebsit-1256470100.cos.ap-shanghai.myqcloud.com/img/icon.ico" type="image/x-icon"/>
+<link href="https://cdn.bootcss.com/animate.css/3.7.0/animate.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://sucksonwebsit-1256470100.cos.ap-shanghai.myqcloud.com/dist/css/demo.min.css" />
 
 <!--必要样式-->
-<link rel="stylesheet" type="text/css" href="css/component.css" />
+<link rel="stylesheet" type="text/css" href="https://sucksonwebsit-1256470100.cos.ap-shanghai.myqcloud.com/dist/css/component.min.css" />
 <!--[if IE]>
 	<script src="js/html5.js"></script>
 <![endif]-->
@@ -25,24 +24,24 @@
 			<div class="main">
 				<div class="main-logo">
 					<h1>Suckson</h1>
-					<img class="img-logo-1 animated rollIn" src="img/3.png" alt="">
+					<img class="img-logo-1 animated rollIn" src="https://sucksonwebsit-1256470100.cos.ap-shanghai.myqcloud.com/img/3.png" alt="背景图3">
 				</div>
 				<h2>向那些疯狂的家伙们致敬——</h2>
 				<h3>ThinkDifferent</h3>
-				<h4><a href="https://www.suckson.club"><button class="animated">Go 柴先生博客</button ></a>
-					<a href="https://www.suckson.club"> <button class="animated">Go  陈先生博客</button></a>
-			    	<a href="https://www.suckson.club">	<button class="animated  hiddenbtn">GO &nbsp;   GiTub</button></a>
-					<a href="https://www.suckson.club"><button class="animated  hiddenbtn1">Go &nbsp;   OurMusic</button></a>
+				<h4><a href="javascript:()"><button class="animated">Go 柴先生博客</button ></a>
+					<a href="javascript:()"> <button class="animated">Go  陈先生博客</button></a>
+			    <a href="https://github.com/Suckson/">	<button class="animated  hiddenbtn">GO &nbsp;   GiTub</button></a>
+					<a href="https://music.suckson.cn/#/recommend"><button class="animated  hiddenbtn1">Go &nbsp;OurMusic</button></a>
 				</h4>
 			</div>
-			<p style="width: 100%;position: absolute;bottom: -10px;color:#958585; text-align: center;">www.suckson.cn  豫ICP备18022290号</p>
+			<p id="go" style="width: 100%;position: absolute;bottom: -10px;color:#958585; text-align: center;"><a href="http://www.beian.miit.gov.cn" target="_Blank">www.suckson.cn  豫ICP备18022290号</a></p>
 		</div>
 	</div>
 </div><!-- /container -->
-<script src="js/rAF.js"></script>
-<script src="js/demo-2.js"></script>
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery-canvas-sparkles.js"></script>
+<script src="https://sucksonwebsit-1256470100.cos.ap-shanghai.myqcloud.com/dist/js/rAF.min.js"></script>
+<script src="https://sucksonwebsit-1256470100.cos.ap-shanghai.myqcloud.com/dist/js/demo-2.min.js"></script>
+<script src="https://sucksonwebsit-1256470100.cos.ap-shanghai.myqcloud.com/dist/js/jquery.min.js"></script>
+<script src="https://sucksonwebsit-1256470100.cos.ap-shanghai.myqcloud.com/dist/js/jquery-canvas-sparkles.min.js"></script>
 <script>
 $(".img-logo-1").sparkle({
 color: "rainbow",
@@ -70,21 +69,20 @@ $(function () {
 		$(this).removeClass('bounce')
 	});	
 })
-
 $(function(){
 	var random = Math.floor(Math.random()*(4-1+1)+1);
 	switch (random) {
 		case 1:
-			$(".large-header").css("background-image","url('./img/bg1.jpg')");
+			$(".large-header").css("background-image","url('https://sucksonwebsit-1256470100.cos.ap-shanghai.myqcloud.com/img/bg1.jpg')");
 			break;
         case 2:
-			$(".large-header").css("background-image","url('./img/bg2.jpg')")
+			$(".large-header").css("background-image","url('https://sucksonwebsit-1256470100.cos.ap-shanghai.myqcloud.com/img/bg2.jpg')")
 			break;
         case 3:
-			$(".large-header").css("background-image","url('./img/bg3.jpg')")
+			$(".large-header").css("background-image","url('https://sucksonwebsit-1256470100.cos.ap-shanghai.myqcloud.com/img/bg3.jpg')")
 			break;
 		case 4:
-			$(".large-header").css("background-image","url('./img/bg4.jpg')")
+			$(".large-header").css("background-image","url('https://sucksonwebsit-1256470100.cos.ap-shanghai.myqcloud.com/img/bg4.jpg')")
 			break;
 	};
 })
