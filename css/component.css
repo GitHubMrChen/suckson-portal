@@ -1,7 +1,7 @@
 /* Header */
 @font-face {
     font-family:'Helvetica';
-    src:url('http://pqhwm6j9b.bkt.clouddn.com/STLITI.TTF');
+    src:url('https://suckson-portal.oss-cn-hangzhou.aliyuncs.com/font/STLITI.TTF');
     font-weight: 200;
 }
 .large-header {
@@ -14,7 +14,7 @@
 	z-index: 1;
 }
 .demo-2 .large-header {
-	background-image: url('http://pqhwm6j9b.bkt.clouddn.com/bg2.jpg');
+	background-image: url('https://cdn.suckson.cn/img/bg2.jpg');
 	background-position: center bottom;
 }
 
